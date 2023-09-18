@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table{
+    text-align: left;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+thead {
+    background-color: cadetblue;
+    border-radius: 100px;
+}
+
+tr {
+    height: 53px;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F6FF;
+  }
+
+th {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1rem;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+  }

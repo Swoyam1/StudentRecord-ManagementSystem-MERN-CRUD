@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.studentInput{
+    padding: 4px 11px;
+    width: 55vw;
+    height: 32px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    outline: none;
+}
+
+label {
+    margin: 14px;
+    font-weight: 500;
+}
+
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit, .reset{
+    height: 40px;
+    width: 70px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+
+.submit{
+    background-color: green;
+}
+
+.reset{
+    background-color: cadetblue;
+}
+

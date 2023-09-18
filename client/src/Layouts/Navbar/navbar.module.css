@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+.title{
+    padding-left: 1rem;
+}
+
+
+
+.link{
+    color: #fff;
+    padding: 0px 50px;
+    transition: .7s color ease;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.delete, .edit{
+    height: 30px;
+    width: 60px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+
+.delete{
+    background-color: red;
+}
+
+.edit{
+    background-color: green;
+}
